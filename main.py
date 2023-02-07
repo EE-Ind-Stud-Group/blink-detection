@@ -13,10 +13,7 @@ from imutils import face_utils
 
 from detector import BlinkDetector
 from util.color import RED
-from util.faceplots import (
-    draw_landmarks_used_by_blink_detector,
-    mark_face,
-)
+from util.faceplots import draw_landmarks_used_by_blink_detector
 from util.image_type import ColorImage
 
 
