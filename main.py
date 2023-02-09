@@ -155,7 +155,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(allow_abbrev=False)
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--video", help="the video file to detect eye aspect ratio on")
-    group.add_argument("--live", action="store_true", help="detect the eye aspect ratio from live video")
+    group.add_argument("--live", action="store_true", help="detect the eye aspect ratio from live stream")
     args = parser.parse_args()
 
     if args.live:
